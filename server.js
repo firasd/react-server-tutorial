@@ -115,7 +115,7 @@ app.get(['/', '/another-page'], function(req, res) {
       } else if (redirectLocation) {
         res.redirect(302, redirectLocation.pathname + redirectLocation.search)
       } else if (renderProps) {
-        res.send(
+        res.send("<!DOCTYPE html>"+
           ReactDOMServer.renderToString(
             Provider({store: store}, RouterContext(renderProps))
           )
