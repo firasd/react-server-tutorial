@@ -109,7 +109,7 @@ app.get(['/', '/another-page'], function(req, res) {
 
     store = store.configureStore(initialState);
 
-    match({routes, location: req.url}, function(error, redirectLocation, renderProps) {
+    match({routes: routes, location: req.url}, function(error, redirectLocation, renderProps) {
       if (error) {
         res.status(500).send(error.message)
       } else if (redirectLocation) {
