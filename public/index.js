@@ -55,7 +55,9 @@ var Index = React.createClass({
 });
 
 var IndexState = function(state) {
+	var stateJSON = JSON.stringify(state).replace(/<\/script/g, '<\\/script').replace(/<!--/g, '<\\!--');
 	return {
+		initialState: "window.__INITIAL_STATE__ = "+stateJSON
 	}
 }
 
