@@ -1,13 +1,12 @@
 {
-  "name": "React Tutorial Server",
-  "description": "Code from the React tutorial",
-  "keywords": [ "react", "reactjs", "tutorial" ],
-  "repository": "https://github.com/reactjs/react-tutorial",
+  "name": "React Server Tutorial",
+  "description": "Code from the React tutorial, modified to add Server-Side Rendering, React Router, and Redux",
+  "keywords": [ "react", "reactjs", "redux", "react router", "server side rendering", "universal", "isomorphic", "tutorial" ],
+  "repository": "https://github.com/firasd/react-server-tutorial",
   "logo": "https://facebook.github.io/react/img/logo.svg",
-  "website": "http://facebook.github.io/react/docs/tutorial.html",
+  "website": "https://github.com/firasd/react-redux-tutorial",
   "success_url": "/",
   "env" : {
     "BUILDPACK_URL": "https://github.com/heroku/heroku-buildpack-nodejs.git"
   }
 }
-

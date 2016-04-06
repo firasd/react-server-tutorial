@@ -1,11 +1,19 @@
 {
-  "name": "react-tutorial",
+  "name": "react-server-tutorial",
   "version": "0.0.0",
-  "description": "Code from the React tutorial.",
+  "description": "Code from the React tutorial, modified to add Server-Side Rendering, React Router, and Redux.",
   "main": "server.js",
   "dependencies": {
+    "babel-preset-react": "^6.5.0",
+    "babel-register": "^6.7.2",
     "body-parser": "^1.4.3",
-    "express": "^4.4.5"
+    "express": "^4.4.5",
+    "marked": "^0.3.5",
+    "react": "^0.14.8",
+    "react-dom": "^0.14.8",
+    "react-redux": "^4.4.1",
+    "react-router": "^2.0.1",
+    "redux": "^3.3.1"
   },
   "devDependencies": {},
   "scripts": {
@@ -18,16 +26,20 @@
   },
   "keywords": [
     "react",
+    "redux",
+    "react router",
+    "server side rendering",
+    "universal",
+    "isomorphic",
     "tutorial",
     "comment",
     "example"
   ],
-  "author": "petehunt",
   "bugs": {
-    "url": "https://github.com/reactjs/react-tutorial/issues"
+    "url": "https://github.com/firasd/react-server-tutorial/issues"
   },
-  "homepage": "https://github.com/reactjs/react-tutorial",
-  "engines" : {
-    "node" : "0.12.x"
+  "homepage": "https://github.com/firasd/react-server-tutorial",
+  "engines": {
+    "node": "0.12.x"
   }
 }
