@@ -56,7 +56,6 @@ var Index = React.createClass({
 
 var IndexState = function(state) {
 	return {
-		initialState: "window.__INITIAL_STATE__ = "+JSON.stringify(state)
 	}
 }
 
