@@ -15,13 +15,13 @@ var Index = React.createClass({
 			</head>
 			<body>
 				<div id="content">
-					<em>React Server Tutorial: <a href="https://github.com/firasd/react-server-tutorial/" target="_blank">Github</a></em>
+					<em>React Server Tutorial: <a href="https://medium.com/@firasd/quick-start-tutorial-universal-react-with-server-side-rendering-76fe5363d6e" target="_blank">Tutorial</a> &middot; <a href="https://github.com/firasd/react-server-tutorial/" target="_blank">Github</a></em>
 					<ul>
 						<li><Link to="/" activeStyle={{fontWeight: 'bold'}} onlyActiveOnIndex>Comments</Link></li>
 						<li><Link to="/another-page" activeStyle={{fontWeight: 'bold'}}>Another Page</Link></li>
 					</ul>
 					{this.props.children}
-					<p><em>Made with &hearts; in 2016</em></p>
+					<p style={{marginTop: '4em', textAlign: 'center'}}>Made with &hearts; in 2016</p>
 				</div>
 
 				{/* Delete or comment out script tags in this block when using webpack */}
